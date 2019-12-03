@@ -1,0 +1,910 @@
+<html>
+  <head>
+<title>anvesha</title>
+<link rel="stylesheet" href="aos.css"/>
+    <style>
+      *{
+  margin:0px;
+  padding:0px;
+  /* outline:1px solid white; */
+  box-sizing:border-box;
+}
+
+.c{
+  width:100vw;
+  height:50px;
+  background:black;
+}
+.s1{ z-index:22;
+        background-color:rgba(0,0,0,0.1);
+        width:100vw;
+        height:85px;
+  position:fixed;
+        top:0px;
+  display:flex;
+  flex-direction:row;
+}
+.logo{
+  width:100px;
+  margin-left:100px;
+}
+.tabs{
+  width:60vw;
+  margin-left:20vw;
+  display:flex;
+}
+.indtabs{
+  width:10vw;
+  display:flex;
+  justify-content:space-around;
+}
+.indtabs a{
+ text-decoration:none;
+ color:white;
+ height:85px;
+ width:9vw;
+ display:flex; 
+  transition:all 300ms ease;
+}
+.indtabs a span{
+  margin:auto;
+}
+.indtabs a:hover{
+  transform:scale(1.1);
+   background-color:rgba(255,255,255,0.8);
+  color:black;
+}
+
+
+.s2{ 
+  background:url('pes.jpeg') no-repeat center;
+  position:relative;           
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  width:100vw;
+  height:100vh;
+ 
+  display:flex;
+  flex-direction:row;
+}
+.intro{
+  width:60vw;
+  height:40vh;
+  margin:auto;
+  display:flex;
+  flex-direction:row;
+  background: rgba(0,0,0,0.4);
+}
+.introcontent{
+  width:400px;
+  height:40vh;
+  display:flex;
+  flex-direction:column;
+  margin: auto;
+  background:url('logo 2.png') no-repeat center;
+  
+  background-size:contain;
+  position:relative;
+}
+.introqoute{
+  padding:8px;
+  margin-top:58.95px;
+  height:235px;
+  width:400px;
+  font-size: 27px;
+line-height: 44px;
+font-weight: 900;
+font-family: 'lato';
+padding-top: 20px;
+}
+
+
+
+.guy{
+  text-align: right;
+padding: 8px;
+font-size: 21px;
+
+font-weight: 900;
+font-family: 'lato';
+}
+
+.s9{
+  color:white;
+  width:100vw;
+  height:650px;
+  display:flex;
+  background:black;
+}
+.incontainer{
+ 
+  width:80vw;
+  margin:auto;
+  height:500px;
+}
+.inhead{
+  font-family:'lato';
+  font-size:24px;
+  font-weight:700;
+  display:flex;
+  text-align:center;
+  width:80vw;
+  height:150px;
+}
+.inhead span{
+  margin:auto;
+}
+.incontent{
+  font-size: 17px;
+  text-align:center;
+  display:flex;
+  font-style: normal;
+line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+}
+.incontent span{
+  width:80vw;
+  margin:auto;
+}
+
+.s8{
+
+  width:100vw;
+  height:400px;
+  color:white;
+  background:black;
+  display:flex;
+  flex-direction:row;
+ justify-content:space-around;
+}
+.sub{
+ 
+   overflow:hidden;
+  flex-basis:18.8vw;
+  display:flex;
+  flex-direction:column;
+  transition:.3s all ease;
+  
+}
+.sub:hover{
+  transform:scale(1.1);
+}
+.circlecover{
+  width:18.8vw;
+  position:absolute;
+  top:108px;  
+  display:flex;
+  flex-direction:row;
+}
+.circlecover a{
+margin:auto;
+color:white;
+text-decoration:none;
+}
+.circle{
+  margin:auto; 
+  background:rgba(255,255,255,0.1);
+  width:150px;
+  height:150px;
+  border:1px solid white;
+  border-radius:50%;  
+  flex-align:center;
+  display:flex;
+}
+.circle span{
+  margin:auto;
+}
+.subcontentcover{
+  width:18.8vw;
+  position:absolute;
+  top:318px;
+  display:flex;
+}
+.subcontentcover a{
+margin:auto;
+color:white;
+text-decoration:none;
+}
+.subcontent{
+  margin:auto;
+  width:142px;
+  height:42px;
+  border:1px solid white;
+  border-radius:30px;
+  display:flex;
+  flex-direction:row;
+}
+.subcontent span{
+  margin:auto;
+}
+#i1{background:url('poem.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i2{background:url('quiz.jpg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i3{background:url('aalap.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i4{background:url('band.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i5{background:url('mudra.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+
+  #i11{background:url('debate.jpg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i12{background:url('sync.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i13{background:url('story.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i14{background:url('face.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i15{background:url('footloose.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}  
+
+  #i111{background:url('vya.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i112{background:url('jam.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i113{background:url('drama.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i114{background:url('afreen.jpeg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}
+#i115{background:url('i5.jpg') no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;}  
+
+.astro{
+  color:white;
+  width:100vw;
+  height:600px;
+  background:black;
+  display:flex;
+  flex-direction:row;
+}
+.astroimage{
+  heigh:600px;
+  width:50vw;
+  background:url('chai.jpg') no-repeat;
+  background-attachment:fixed;
+  background-size:50vw;
+  position:relative;
+}
+.astrocontent{
+  width:50vw;
+  height:600px;
+  display:flex;
+  flex-direction:column;
+}
+.astrocontentsub{
+  margin:auto;
+  height:608px;
+  width:50vw;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+.astroheading{
+   margin-left:5vw;
+  width:25vw;
+  position:absolute;
+  top:0px;
+  height:40px;
+  font-size: 18px;
+}
+.astrobig{
+  width:30vw;
+   margin-left:5vw;
+   height:216px;
+  position:absolute;
+  top:64px;
+  font-size: 40px;
+font-weight: 900;
+font-family: "lato";
+background: url('chailogo.png') no-repeat center;
+background-size:contain ;
+}
+.astrotext{
+  width:35vw;
+   margin-left:5vw;
+   height:160px;
+  position:absolute;
+  top:360px;
+}
+.astrobutton{
+  width:190px;
+  margin-left:5vw;
+  position:absolute;
+  top: 441px;
+  display:flex;
+}
+.astrobutton a{
+	width:190px;color:white;
+	text-align: center;
+	font-size: 15px;
+	padding: 13px;
+	border: 1px solid white;
+	border-radius: 12px;
+	margin:auto;
+	text-decoration:none;
+transition:all 300ms ease;
+}
+
+.astrobutton a:hover{
+transform:scale(1.1);
+}
+
+.s7{
+  width:100vw;
+  height:700px;
+  background:black;
+  color:white;
+  display:flex;
+  
+}
+.contactbox{
+  width:60vw;
+  margin:auto;
+  height:350px;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+}
+.contacthead{
+  width:60vw;
+  display:flex;
+  font-size: 60px;
+  height:108px
+}
+.contactbody{
+  width:60vw;
+  display:flex;
+  font-size: 20px;
+  line-height: 48px;
+  text-align:center;
+  position:absolute;
+  top:125.5px;
+  height:122.5px;
+}
+.contactbutton{
+  width:60vw;
+  display:flex;
+  font-size: 20px;
+  position:absolute;
+  top:293.5px;
+  height:42px;
+}
+.contacthead span{
+  margin:auto;
+}
+.contactbody span{
+  margin:auto;
+  width:750px;
+}
+.contactbutton a{margin:auto;
+  padding:5px;
+  width:200px;
+  text-align:center;
+  border:1px solid white;
+  border-radius:30px;
+text-decoration:none;
+color:white;
+transition:all 300ms ease;
+}
+.contactbutton a:hover{
+transform:scale(1.1);
+}
+
+@media only screen and (max-width: 600px){
+.s8{  
+  height:900px;
+  flex-direction: column;
+}
+#ff{
+  height:720px;
+}
+.sub{ 
+  flex-basis:100vw;
+  height:150px;
+  flex-direction:row; 
+}
+
+.circlecover{ 
+  top:25px;
+  left:30px;  
+  display:flex;
+  flex-direction:row;
+}
+
+.circle{ 
+  width:130px;
+  height:130px;
+}
+
+.subcontentcover{
+  width:18.8vw;
+  position:absolute;
+  top:70px;
+  left:200px;
+  display:flex;
+}
+
+
+
+
+.contactbox{
+  width:100vw; 
+  height:700px; 
+}
+.contacthead{
+  width:100vw;
+  font-size: 30px;
+  height:208px;
+}
+.contactbody{
+  width:80vw;
+  top:205.5px;
+  left:10vw;
+}
+.contactbutton{
+  width:60vw;
+  top:393.5px;
+  left:20vw;
+}
+
+
+.astro{
+ 
+  width:100vw;
+  height:700px;
+  
+}
+.astroimage{
+ 
+  width:0vw;
+  
+}
+.astrocontent{
+  width:100vw;
+  background:url('chai.jpg') no-repeat;
+  background-attachment:fixed;
+  background-size:100vw;
+  position:relative;
+ 
+}
+.astrocontentsub{
+  margin-left:10vw;
+  margin-top:50px;
+  height:600px;
+  width:90vw;
+}
+.astroheading{
+   
+  width:50vw;
+  
+}
+.astrobig{
+  width:60vw;   
+}
+.astrotext{
+  width:55vw;    
+  top:320px;
+}
+.astrobutton{
+  top:500px;
+}
+
+
+
+
+
+
+
+
+.s1{ 
+        width:100vw;
+        height:100vh;
+  
+  display:flex;
+  flex-direction:column;
+}
+.logo{
+  width:100vw; 
+  height:85px;
+  margin-left:0px;
+}
+.tabs{
+  width:100vw;
+  height:100vh;
+  margin-left:0vw; 
+  flex-direction:column;
+
+}
+.indtabs{
+  width:100vw;
+  height:10vh; 
+}
+.indtabs a{
+ height:10vh;
+ width:100vw;
+}
+.incontent{
+  font-size: 12px;
+  text-align:center;
+  display:flex;
+  font-style: normal;
+line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+}
+
+    </style>
+
+  </head>
+<body>
+<!-- <section class="s1"> -->
+    <!-- <div class="logo"></div>
+     <div class="tabs">
+      <div class="indtabs" data-aos="fade-right" data-aos-duration="600" data-aos-delay="0"  data-aos-easing="ease-in-out" ><a href=""><span>lormipsumss</span></a></div>
+      <div class="indtabs"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="100"  data-aos-easing="ease-in-out"><a href=""><span>lormipsumss</span></a></div>
+      <div class="indtabs"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="200"  data-aos-easing="ease-in-out"><a href=""><span>lormipsumss</span></a></div>
+      <div class="indtabs"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="300"  data-aos-easing="ease-in-out"><a href=""><span>lormipsumss</span></a></div>
+      <div class="indtabs"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="400"  data-aos-easing="ease-in-out"><a href=""><span>lormipsumss</span></a></div>
+      <div class="indtabs"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="500"  data-aos-easing="ease-in-out"><a href=""><span>lormipsumss</span></a></div>
+    </div> --> 
+  <!-- </section> -->
+<div class="d"></div>
+
+
+
+<section class="s2">
+    <div class="intro">
+      <div class="introcontent">
+        <!-- <div class="introqoute" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-out" ><i><q>The first principle is that<br/>
+you must not fool<br/>
+yourself-and you are<br/>
+the easiest person to<br/>
+fool. </q></i></div>
+        <div class="guy" data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out"><i>-Richard Feyman</i></div> -->
+      </div>
+      <div class="extra"></div>
+    </div>
+  </section>
+ <section class="s9" >
+    <div class="incontainer">
+      <div class="inhead" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out"><span>
+     About IICM</span>
+    </div>
+    <div class="incontent" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out"><span>The Inter IISER Cultural Meet(IICM) is the annual cultural fest-cum-competition amongst the leading
+      research institutes across the country. In this grand event, students from seven different IISERs
+      (Thiruvananthapuram, Pune, Mohali, Bhopal, Tirupati, Berhampur and Kolkata) and IISc Bangalore
+      will represent their respective institutes in several competitions of art, music, dance, theatre,
+       filmmaking, literature, and photography spread over a span of three days. This year, IICM will be 
+      organised by IISER Thiruvananthapuram in the lush greens of its main campus at Vithura, Kerala. 
+      With huge participation and turnout of students for the intercollegiate events, IICM‘18 did set the bars
+      
+       high, and we aim to cross our limits as always, and make IICM‘19 even greater.</span></div>
+    </div>
+
+
+
+
+    
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="c"></div>
+  <section class="astro">
+    <div class="astroimage"></div>
+    <div class="astrocontent">
+      <div class="astrocontentsub">
+        <div class="astroheading" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out">Pro-Show</div>
+        <div class="astrobig" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out"></div>
+        <!-- <div class="astrotext" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out">  Lorem ipsum dolor sit amet consectetur adipisicing
+                       elit. Soluta, ab! Illum consequatur dolores et ipsam cupiditate minus,
+                       aliquam nesciunt nemo quisquam cum amet aspernatur esse eligendi corrupti
+                       culpa maxime? Libero deserunt itaque quo. Unde, ipsam culpa aliquam volup
+                       tates quasi ratione!</div> -->
+        <div class="astrobutton" data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-out"><a href=""><span>Buy tickets</span></a></div>
+      </div>
+    </div>
+  </section>
+  <div class="c"></div>
+  <div class="c" style="color: white;text-align: center;display: flex;font-size: 30px;"> 
+    <span style="margin: auto;">Day 1</span>
+    
+  </div>
+   <div class="c"></div>
+
+
+
+
+
+
+
+  <section class="s8" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out" >
+    <div id="i1"class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+<a href="">
+      <div class="circle">
+        <span>Poem writing</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i2" class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+    <a href="">  <div class="circle">
+        <span>Quiz</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i3" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+   <a href="">   <div class="circle">
+        <span>Aalap</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i4" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+  <a href="">    <div class="circle">
+        <span>Battle of bands</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i5" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-easing="ease-in-out">
+    <a href="">  <div class="circle">
+        <span>Mudra</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    
+  </section>
+  <div class="c"></div>
+  <div class="c" style="color: white;text-align: center;display: flex;font-size: 30px;"> 
+    <span style="margin: auto;">Day 2</span>
+    
+  </div>
+   <div class="c"></div>
+
+
+
+
+   <section class="s8" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out" >
+    <div id="i11"class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+<a href="">
+      <div class="circle">
+        <span>Debate</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i12" class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+    <a href="">  <div class="circle">
+        <span>Synchro</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i13" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+   <a href="">   <div class="circle">
+        <span style="text-align: center;">Short story writting</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i14" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+  <a href="">    <div class="circle">
+        <span>Face painting</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i15" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-easing="ease-in-out">
+    <a href="">  <div class="circle">
+        <span>Footloose</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    
+  </section>
+
+
+   <section class="s8" id="ff" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out" >
+    <div id="i111"class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+<a href="">
+      <div class="circle">
+        <span>Vyaktitva</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i112" class="sub" >
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+    <a href="">  <div class="circle">
+        <span>JAM</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i113" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+   <a href="">   <div class="circle">
+        <span style="text-align: center;">Drama</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    <div id="i114" class="sub">
+      <div class="circlecover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+  <a href="">    <div class="circle">
+        <span>Afreen</span>
+      </div></a>
+    </div>
+      <div class="subcontentcover" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+      <a href=""><div class="subcontent">
+        <span>read more.</span>
+      </div></a>
+    </div>
+      </div>
+    
+    
+  </section>
+  <div class="c"></div>
+   <div class="c"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="s7"     data-aos="zoom-in" data-aos-duration="300" data-aos-easing="ease-in-out">
+    <div class="contactbox">
+      <div class="contacthead" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+        <span> Like our work?
+</span>
+      </div>
+      <div class="contactbody" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
+        <span>
+          Can't find what your heart beats for ?</br>
+           
+        </span>
+      </div>
+
+      <div class="contactbutton" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out"><a href="">
+        <span id="contactbutton">We have got your back...
+</span></a>
+      </div>
+    </div>
+  </section>
+  <div class="c"></div>
+<script type="text/javascript" src="aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
+</body>
+  </html>

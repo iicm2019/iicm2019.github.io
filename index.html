@@ -58,6 +58,43 @@
   color:black;
 }
 
+	   .container {
+
+color: #fff;
+text-align: center;
+background: black;
+}
+
+
+
+li {
+
+width:69px;
+display: inline-block;
+font-size: 10px;
+list-style-type: none;
+padding: 9px;
+text-transform: uppercase;
+ background-color:rgba(255,255,255,0.4)
+}
+
+li span {
+display: block;
+font-size: 19px;
+}
+
+
+
+
+
+.container {
+margin: 0 auto;
+} 
+	    
+	    
+	    
+	    
+	    
 
 .s2{ 
   background:url('pes.jpeg') no-repeat center;
@@ -573,6 +610,36 @@ line-height: 1.6;
 
     </style>
 
+	  <script>
+
+const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('Dec 20, 2019 14:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+      
+      //do something later when date is reached
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'IT'S MY BIRTHDAY!;
+      //}
+
+    }, second)
+
+
+</script>
+	  
+	  
   </head>
 <body>
 <!-- <section class="s1"> -->
@@ -603,6 +670,18 @@ fool. </q></i></div>
       <div class="extra"></div>
     </div>
   </section>
+	
+	
+<div class="container">
+  
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>	
+	
  <section class="s9" >
     <div class="incontainer">
       <div class="inhead" data-aos="fade-up" data-aos-delay="0" data-aos-duration="600" data-aos-easing="ease-in-out"><span>

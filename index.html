@@ -6,6 +6,93 @@
 
 <link rel="stylesheet" href="aos.css"/>
     <style>
+/* 	==================media button===================     */
+	    
+	    
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+}
+
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+/* ==============================================	     */
+	    
+	    
+	    
       *{
   margin:0px;
   padding:0px;
@@ -1047,15 +1134,18 @@ fool. </q></i></div>
       </div>
       <div class="contactbody" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out">
         <span>
-          Can't find what your heart beats for ?</br>
+          <div id="social"><a class="facebookBtn smGlobalBtn" href="#" ></a>
+			<a class="twitterBtn smGlobalBtn" href="#" ></a>
+			<a class="googleplusBtn smGlobalBtn" href="#" ></a>
+	
+	
+		</div>
+	
            
         </span>
       </div>
 
-      <div class="contactbutton" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-in-out"><a href="">
-        <span id="contactbutton">We have got your back...
-</span></a>
-      </div>
+      
     </div>
   </section>
   <div class="c"></div>
